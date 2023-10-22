@@ -1,0 +1,71 @@
+.education_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.timeline {
+  background-color: var(--container-color);
+  padding: 1.875rem;
+  border-radius: var(--border-radius);
+  position: relative;
+  box-shadow: var(--shadow);
+}
+
+.timeline_item {
+  position: relative;
+  padding-left: 3.125rem;
+  padding-bottom: 3.125rem;
+}
+
+.timeline_item:last-child {
+  padding-bottom: 0;
+}
+
+.timeline_item::before {
+  content: "";
+  width: 1px;
+  height: 100%;
+  background-color: var(--first-color);
+  position: absolute;
+  left: 0.25rem;
+  top: 0;
+}
+
+.timeline .icon-graduation {
+  position: absolute;
+  left: -0.4375rem;
+  top: 0;
+  font-size: var(--h2-font-size);
+  color: var(--first-color);
+  background-color: var(--container-color);
+  padding: 0.5rem 0;
+}
+
+.timeline_data {
+  color: #8b88b1;
+  font-size: var(--small-font-size);
+}
+
+.timeline_title {
+  font-size: var(--h3-font-size);
+  margin: 0.5rem 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .education_container {
+    grid-template-columns: 450px;
+    justify-content: center;
+    row-gap: 1.875rem;
+  }
+
+  .tomeline_item::before {
+    left: 2px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .education_container {
+    grid-template-columns: 1fr;
+  }
+}
