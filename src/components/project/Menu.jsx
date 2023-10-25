@@ -10,7 +10,7 @@ const Menu = [
     title: "TodoList",
     link: "https://todo-list-rho-ten-74.vercel.app/",
     github: "https://github.com/jmsxcc/TodoList",
-    category: "React js",
+    category: "ReactJS",
   },
   {
     id: 2,
@@ -18,7 +18,7 @@ const Menu = [
     title: "BMI Calculator",
     link: "https://bmi-calculator-three-dun.vercel.app/",
     github: "https://github.com/jmsxcc/BMI-Calculator",
-    category: "React ts",
+    category: "ReactTS",
   },
   {
     id: 3,
@@ -26,7 +26,7 @@ const Menu = [
     title: "Furniture Store",
     link: "https://furniture-store-ashen.vercel.app/",
     github: "https://github.com/jmsxcc/furniture-store",
-    category: "React js",
+    category: "ReactJS",
   },
   {
     id: 4,
@@ -34,7 +34,7 @@ const Menu = [
     title: "React Login",
     link: "https://react-login-blond.vercel.app/",
     github: "https://github.com/jmsxcc/react-login",
-    category: "React js",
+    category: "ReactJS",
   },
 ];
 export default Menu;

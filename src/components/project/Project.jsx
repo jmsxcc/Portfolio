@@ -20,11 +20,11 @@ export const Project = () => {
         <span className="work_item" onClick={() => setItems(Menu)}>
           All
         </span>
-        <span className="work_item" onClick={() => filterItem("React js")}>
-          React js
+        <span className="work_item" onClick={() => filterItem("ReactJS")}>
+          ReactJS
         </span>
-        <span className="work_item" onClick={() => filterItem("React ts")}>
-          React ts
+        <span className="work_item" onClick={() => filterItem("ReactTS")}>
+          ReactTS
         </span>
       </div>
 
