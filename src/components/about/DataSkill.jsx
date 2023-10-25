@@ -32,9 +32,9 @@ const DataPhoto = [
   },
   {
     id: 6,
-    name: "sql",
+    name: "mysql",
     photo:
-      "https://img.icons8.com/external-those-icons-lineal-color-those-icons/480/external-SQL-development-files-those-icons-lineal-color-those-icons.png",
+      "https://img.icons8.com/external-those-icons-flat-those-icons/480/external-MySQL-programming-and-development-those-icons-flat-those-icons.png",
     category: "backend",
   },
   {

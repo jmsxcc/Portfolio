@@ -44,7 +44,7 @@ const About = () => {
           <div className="about_container_title">
             <h2 className="about_title">Skills</h2>
             <div className="about_icon">
-              <h3 className="about_frontend">Front End</h3>
+              <h3 className="about_frontend">Frontend</h3>
               {DataPhoto.map(({ id, photo, category }) => {
                 if (category === "frontend")
                   return (
@@ -56,7 +56,7 @@ const About = () => {
             </div>
 
             <div className="about_icon">
-              <h3 className="about_frontend">Back End</h3>
+              <h3 className="about_frontend">Database</h3>
               {DataPhoto.map(({ id, photo, category }) => {
                 if (category === "backend")
                   return (
