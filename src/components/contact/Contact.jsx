@@ -10,13 +10,13 @@ const Contact = () => {
       <div className="contact_container grid">
         {DataContact.map(({ id, icon, link, title, desc }) => {
           return (
-            <div className="contact_card" key={id}>
-              <a href={link} className="contact_icon" target="_blank">
+            <a href={link} className="contact_card" key={id} target="_blank">
+              <div className="contact_icon">
                 <i className={icon}></i>
-              </a>
+              </div>
               <h3 className="contact_title">{title}</h3>
               <p className="contact_desc">{desc}</p>
-            </div>
+            </a>
           );
         })}
       </div>
