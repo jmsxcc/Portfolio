@@ -49,6 +49,18 @@ const DataPhoto = [
     photo: "https://img.icons8.com/color/48/firebase.png",
     category: "backend",
   },
+  {
+    id: 9,
+    name: "nodejs",
+    photo: "https://img.icons8.com/fluency/480/node-js.png",
+    category: "backend",
+  },
+  {
+    id: 10,
+    name: "git",
+    photo: "https://img.icons8.com/color/480/git.png",
+    category: "tools",
+  },
 ];
 
 export default DataPhoto;
