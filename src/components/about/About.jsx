@@ -58,7 +58,7 @@ const About = () => {
             <div className="about_icon">
               <h3 className="about_frontend">Database</h3>
               {DataPhoto.map(({ id, photo, category }) => {
-                if (category === "backend")
+                if (category === "database")
                   return (
                     <div className="about_card" key={id}>
                       <img src={photo} alt="" />

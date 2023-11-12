@@ -35,7 +35,7 @@ const DataPhoto = [
     name: "mysql",
     photo:
       "https://img.icons8.com/external-those-icons-flat-those-icons/480/external-MySQL-programming-and-development-those-icons-flat-those-icons.png",
-    category: "backend",
+    category: "database",
   },
   {
     id: 7,
@@ -46,20 +46,27 @@ const DataPhoto = [
   {
     id: 8,
     name: "firebase",
-    photo: "https://img.icons8.com/color/48/firebase.png",
-    category: "backend",
+    photo: "https://img.icons8.com/color/480/firebase.png",
+    category: "database",
   },
   {
     id: 9,
     name: "nodejs",
     photo: "https://img.icons8.com/fluency/480/node-js.png",
-    category: "backend",
+    category: "database",
   },
   {
     id: 10,
     name: "git",
     photo: "https://img.icons8.com/color/480/git.png",
     category: "tools",
+  },
+  {
+    id: 11,
+    name: "mongodb",
+    photo:
+      "https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/480/external-mongodb-a-cross-platform-document-oriented-database-program-logo-shadow-tal-revivo.png",
+    category: "database",
   },
 ];
 
