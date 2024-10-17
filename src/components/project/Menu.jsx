@@ -12,10 +12,10 @@ import Product_Card from "../../assets/product_card.png";
 const Menu = [
   {
     id: 1,
-    image: TodoList,
-    title: "TodoList",
-    link: "https://todo-list-rho-ten-74.vercel.app/",
-    github: "https://github.com/jmsxcc/TodoList",
+    image: Expense_Management,
+    title: "Expense Management",
+    link: "https://expense-management-tau-six.vercel.app/",
+    github: "https://github.com/jmsxcc/expense-management",
     category: "ReactJS",
   },
   {
@@ -44,10 +44,10 @@ const Menu = [
   },
   {
     id: 5,
-    image: Expense_Management,
-    title: "Expense Management",
-    link: "https://expense-management-tau-six.vercel.app/",
-    github: "https://github.com/jmsxcc/expense-management",
+    image: TodoList,
+    title: "TodoList",
+    link: "https://todo-list-rho-ten-74.vercel.app/",
+    github: "https://github.com/jmsxcc/TodoList",
     category: "ReactJS",
   },
   {
