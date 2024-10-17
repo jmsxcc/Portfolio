@@ -22,7 +22,7 @@ const About = () => {
 
             <button className="btn-download">
               <a className="btn-text">Download CV</a>
-              <a href={Resume} download className="btn-icon">
+              <a href={Resume} target="_blank" className="btn-icon">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 35 35"
