@@ -26,6 +26,9 @@ export const Project = () => {
         <span className="work_item" onClick={() => filterItem("ReactTS")}>
           ReactTS
         </span>
+        <span className="work_item" onClick={() => filterItem("HTML/CSS")}>
+          HTML/CSS
+        </span>
       </div>
 
       <div className="work_container grid">

@@ -2,7 +2,7 @@ import React from "react";
 import "./about.css";
 import Profile from "../../assets/profile.jpg";
 import DataPhoto from "./DataSkill";
-import Resume from "../../assets/Resume.pdf";
+import Resume from "../../assets/resume.pdf";
 
 const About = () => {
   return (
@@ -15,12 +15,9 @@ const About = () => {
         <div className="about_data grid">
           <div className="about_info">
             <p className="about_description">
-              A programmer who graduated from computer and robotic engineering
-              with first-class honors engages in extensive coding projects,
-              specializing in HTML, CSS, JavaScript, Python, and C. Adept at
-              problem solving, critical thinking, self-learning, and time
-              management. Seeking and having a great desire to pursue a career
-              as a web developer or React developer.
+              First-class honors graduate in computer and robotic engineering, specializing in HTML, CSS, JavaScript, Python, and C. Experienced in
+              developing web applications as an outsource for SCG, enhancing document management, inventory, and logistics systems. Skilled in
+              problem-solving, critical thinking, and time management. Seeking a career as a Full-Stack Developer or Frontend Developer.
             </p>
 
             <button className="btn-download">
