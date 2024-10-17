@@ -2,7 +2,7 @@ import React from "react";
 import "./about.css";
 import Profile from "../../assets/profile.jpg";
 import DataPhoto from "./DataSkill";
-import Resume from "src/assets/resume.pdf";
+import Resume from "../../assets/resume.pdf";
 
 const About = () => {
   return (
