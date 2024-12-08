@@ -68,7 +68,7 @@ const DataPhoto = [
   {
     id: 12,
     name: "nextjs",
-    photo: "https://img.icons8.com/?size=100&id=gwR0hbBi5JeZ&format=png&color=000000",
+    photo: "https://img.icons8.com/fluency-systems-filled/480/nextjs.png",
     category: "frontend",
   },
   {
@@ -86,19 +86,19 @@ const DataPhoto = [
   {
     id: 15,
     name: "bootstrap",
-    photo: "https://img.icons8.com/?size=100&id=PndQWK6M1Hjo&format=png&color=000000",
+    photo: "https://img.icons8.com/color/480/bootstrap--v2.png",
     category: "frontend",
   },
   {
     id: 16,
     name: "tailwind",
-    photo: "https://img.icons8.com/?size=100&id=CIAZz2CYc6Kc&format=png&color=000000",
+    photo: "https://img.icons8.com/color/480/tailwind_css.png",
     category: "frontend",
   },
   {
     id: 17,
     name: "docker",
-    photo: "https://img.icons8.com/?size=100&id=cdYUlRaag9G9&format=png&color=000000",
+    photo: "https://img.icons8.com/fluency/480/docker.png",
     category: "tools",
   },
 ];
