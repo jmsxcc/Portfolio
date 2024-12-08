@@ -52,7 +52,7 @@
 }
 
 .about_icon {
-  margin: 1rem;
+  margin: 1rem 0;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 0.6rem;
@@ -94,35 +94,13 @@
   }
 }
 
-@media screen and (max-width: 768px) {
-  .about_container {
-    grid-template-columns: 350px;
-  }
-
-  .about_data::before {
-    left: 47%;
-  }
-
-  .about_data {
-    grid-template-columns: 1fr;
-    row-gap: 1.875rem;
-  }
-
-  .about_description {
-    margin-top: 0;
-  }
-
-  .about_frontend {
-    grid-column: 1/4;
-    color: #fff;
-  }
-
-  .about_icon {
-    grid-template-columns: repeat(3, 1fr);
-  }
+/* -- Button Download -- */
+.box-btn-cv {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
 }
 
-/* -- Button Download -- */
 .btn-download {
   --main-focus: #2d8cf0;
   --font-color: #323232;
@@ -130,7 +108,7 @@
   --bg-color: #eee;
   --main-color: #323232;
   position: relative;
-  width: 150px;
+  width: 148px;
   height: 40px;
   cursor: pointer;
   display: flex;
@@ -156,7 +134,8 @@
 
 .btn-download .btn-icon {
   position: absolute;
-  transform: translateX(112px);
+  /* transform: translateX(112px); */
+  right: 0;
   height: 100%;
   width: 35px;
   background-color: var(--bg-color-sub);
@@ -185,4 +164,36 @@
 .btn-download:active {
   transform: translate(3px, 3px);
   box-shadow: 0px 0px var(--main-color);
+}
+
+@media screen and (max-width: 576px) {
+  .about_container {
+    grid-template-columns: 350px;
+  }
+
+  .about_data::before {
+    left: 47%;
+  }
+
+  .about_data {
+    grid-template-columns: 1fr;
+    row-gap: 1.875rem;
+  }
+
+  .about_description {
+    margin-top: 0;
+  }
+
+  .about_frontend {
+    grid-column: 1/4;
+    color: #fff;
+  }
+
+  .about_icon {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .box-btn-cv {
+    grid-template-columns: 1fr;
+  }
 }
