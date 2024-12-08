@@ -48,14 +48,11 @@ const Navbar = () => {
         </nav>
 
         <div className="nav_footer">
-          <span className="copyright">&copy; 2023</span>
+          <span className="copyright">&copy; 2024</span>
         </div>
       </aside>
 
-      <div
-        className={toggle ? "nav_toggle nav_toggle-open" : "nav_toggle"}
-        onClick={() => showMenu(!toggle)}
-      >
+      <div className={toggle ? "nav_toggle nav_toggle-open" : "nav_toggle"} onClick={() => showMenu(!toggle)}>
         <i className="icon-menu"></i>
       </div>
     </>

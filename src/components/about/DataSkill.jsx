@@ -26,15 +26,13 @@ const DataPhoto = [
   {
     id: 5,
     name: "react",
-    photo:
-      "https://img.icons8.com/external-tal-revivo-color-tal-revivo/480/external-react-a-javascript-library-for-building-user-interfaces-logo-color-tal-revivo.png",
+    photo: "https://img.icons8.com/external-tal-revivo-color-tal-revivo/480/external-react-a-javascript-library-for-building-user-interfaces-logo-color-tal-revivo.png",
     category: "frontend",
   },
   {
     id: 6,
     name: "mysql",
-    photo:
-      "https://img.icons8.com/external-those-icons-flat-those-icons/480/external-MySQL-programming-and-development-those-icons-flat-those-icons.png",
+    photo: "https://img.icons8.com/external-those-icons-flat-those-icons/480/external-MySQL-programming-and-development-those-icons-flat-those-icons.png",
     category: "database",
   },
   {
@@ -53,7 +51,7 @@ const DataPhoto = [
     id: 9,
     name: "nodejs",
     photo: "https://img.icons8.com/fluency/480/node-js.png",
-    category: "database",
+    category: "backend",
   },
   {
     id: 10,
@@ -64,9 +62,44 @@ const DataPhoto = [
   {
     id: 11,
     name: "mongodb",
-    photo:
-      "https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/480/external-mongodb-a-cross-platform-document-oriented-database-program-logo-shadow-tal-revivo.png",
+    photo: "https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/480/external-mongodb-a-cross-platform-document-oriented-database-program-logo-shadow-tal-revivo.png",
     category: "database",
+  },
+  {
+    id: 12,
+    name: "nextjs",
+    photo: "https://img.icons8.com/?size=100&id=gwR0hbBi5JeZ&format=png&color=000000",
+    category: "frontend",
+  },
+  {
+    id: 13,
+    name: "bun",
+    photo: "https://bun.sh/logo.svg",
+    category: "backend",
+  },
+  {
+    id: 14,
+    name: "elysia",
+    photo: "https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fm3l6zijyz7y7fcq6mc1j.png",
+    category: "backend",
+  },
+  {
+    id: 15,
+    name: "bootstrap",
+    photo: "https://img.icons8.com/?size=100&id=PndQWK6M1Hjo&format=png&color=000000",
+    category: "frontend",
+  },
+  {
+    id: 16,
+    name: "tailwind",
+    photo: "https://img.icons8.com/?size=100&id=CIAZz2CYc6Kc&format=png&color=000000",
+    category: "frontend",
+  },
+  {
+    id: 17,
+    name: "docker",
+    photo: "https://img.icons8.com/?size=100&id=cdYUlRaag9G9&format=png&color=000000",
+    category: "tools",
   },
 ];
 

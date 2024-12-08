@@ -33,7 +33,7 @@ export const Project = () => {
 
       <div className="work_container grid">
         {items.map((elem) => {
-          const { id, image, title, link, github, category } = elem;
+          const { id, image, title, link, github, category, desc } = elem;
           return (
             <div className="work_card" key={id}>
               <div className="work_thumbnail">
@@ -43,6 +43,7 @@ export const Project = () => {
 
               <span className="work_category">{category}</span>
               <h3 className="work_title">{title}</h3>
+              <p className="work_desc">{desc}</p>
               <a href={link} target="_blank" className="work_button1">
                 <i className="icon-link work_button-icon"></i>
               </a>

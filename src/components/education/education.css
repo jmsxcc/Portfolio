@@ -1,7 +1,13 @@
+.education {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
 .education_container {
   display: flex;
   justify-content: center;
   align-items: center;
+  grid-template-columns: 1fr;
 }
 
 .timeline {
@@ -10,12 +16,13 @@
   border-radius: var(--border-radius);
   position: relative;
   box-shadow: var(--shadow);
+  width: 100%;
 }
 
 .timeline_item {
   position: relative;
   padding-left: 3.125rem;
-  padding-bottom: 3.125rem;
+  padding-bottom: 2.125rem;
 }
 
 .timeline_item:last-child {
@@ -32,7 +39,8 @@
   top: 0;
 }
 
-.timeline .icon-graduation {
+.timeline .icon-graduation,
+.timeline .icon-briefcase {
   position: absolute;
   left: -0.4375rem;
   top: 0;
@@ -53,10 +61,14 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .education_container {
-    grid-template-columns: 450px;
-    justify-content: center;
-    row-gap: 1.875rem;
+  .education {
+    grid-template-columns: 1fr;
+    gap: 6rem;
+  }
+
+  .timeline {
+    width: 450px;
+    justify-self: center;
   }
 
   .tomeline_item::before {
@@ -67,5 +79,9 @@
 @media screen and (max-width: 576px) {
   .education_container {
     grid-template-columns: 1fr;
+  }
+
+  .timeline {
+    width: 350px;
   }
 }

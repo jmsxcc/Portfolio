@@ -14,7 +14,7 @@
   --body-font: "Rubik", sans-serif;
   --h1-font-size: 2.25rem;
   --h2-font-size: 1.5rem;
-  --h3-font-size: 1.5rem;
+  --h3-font-size: 1.25rem;
   --normal-font-size: 1rem;
   --small-font-size: 0.875rem;
   --smaller-font-size: 0.813rem;
@@ -109,8 +109,9 @@ img {
 }
 
 .section {
-  padding-top: 7rem;
+  padding-top: 4rem;
   padding-bottom: 2rem;
+  /* scroll-margin-block-start: -30px; */
 }
 
 .section_title {
