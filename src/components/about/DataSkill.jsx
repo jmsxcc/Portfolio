@@ -101,6 +101,18 @@ const DataPhoto = [
     photo: "https://img.icons8.com/fluency/480/docker.png",
     category: "tools",
   },
+  {
+    id: 18,
+    name: "C#",
+    photo: "https://static-00.iconduck.com/assets.00/c-sharp-c-icon-456x512-9sej0lrz.png",
+    category: "backend",
+  },
+  {
+    id: 19,
+    name: "netcore",
+    photo: "https://img.icons8.com/color/480/net-framework.png",
+    category: "backend",
+  },
 ];
 
 export default DataPhoto;
